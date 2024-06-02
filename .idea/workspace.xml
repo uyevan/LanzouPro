@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7872fc8e-001e-42db-a627-094cacb109e2" name="更改" comment="" />
+    <list default="true" id="7872fc8e-001e-42db-a627-094cacb109e2" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/.github/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/api-about.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/api-about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/api-dock.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/api-dock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/index.md.BEHkv8i6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/index.md.BEHkv8i6.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/hashmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/hashmap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/ProjectData/nodeJs/VueProject/LanApi/assets",
+    "last_opened_file_path": "D:/ProjectData/nodeJs/VueProject/LanApi",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -40,6 +51,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectData\nodeJs\VueProject\LanApi" />
       <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\assets" />
     </key>
   </component>
@@ -75,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1717333542973</updated>
-      <workItem from="1717333544189" duration="8241000" />
+      <workItem from="1717333544189" duration="11830000" />
     </task>
     <servers />
   </component>

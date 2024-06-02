@@ -13,7 +13,7 @@ hero:
       link: /api-dock
     - theme: alt
       text: Github 仓库
-      link: https://github.com/uyevan/LanzouPro
+      link: https://github.com/uyevan/LanzouProDock
 
 features:
   - title: 不劳而获
