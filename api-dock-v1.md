@@ -8,7 +8,16 @@ outline: deep
 
 ***
 
-本项目基于 Python3.8 开发，Web框架选用 Flask4.0。
+本项目基于 Python3.10 开发、Web框架选用 Flask4.0、文档生成工具 VitePress.
+
+| API     | 状态 |                 版本                 | 开发   |
+|---------|:--:|:----------------------------------:|------|
+| 获取文件与目录 | ✅  | <Badge type="tip" text="^1.0.1" /> | Evan |
+| 获取目录    | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
+| 获取文件    | ✅  | <Badge type="tip" text="^1.0.1" /> | Evan |
+| 搜索文件    | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
+| 依Url解析  | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
+| 依Id解析   | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
 
 #### 🤡 获取全部：getAll
 
