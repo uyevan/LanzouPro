@@ -2,29 +2,29 @@
 outline: deep
 ---
 
-<Badge type="danger" text="v1.0.0 - For beta" xmlns="yes"></Badge>
+<Badge type="warning" text="v1.0.0 - For beta" xmlns="yes"></Badge>
 
-# Lanzou Pro 接口列表
+# Lanzou Pro V2 接口列表
 
 ***
 
 本项目基于 Python3.10 开发、Web框架选用 Flask4.0、文档生成工具 VitePress.
 
-| API     | 状态 |                 版本                 | 开发   |
-|---------|:--:|:----------------------------------:|------|
-| 获取文件与目录 | ✅  | <Badge type="tip" text="^1.0.1" /> | Evan |
-| 获取目录    | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
-| 获取文件    | ✅  | <Badge type="tip" text="^1.0.1" /> | Evan |
-| 搜索文件    | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
-| 依Url解析  | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
-| 依Id解析   | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
+| API     | 状态 |                 版本                 | 路由                                      |
+|---------|:--:|:----------------------------------:|:----------------------------------------|
+| 获取文件与目录 | ✅  | <Badge type="tip" text="^1.0.1" /> | /v2/getFilesAndDirectories/{Lid}/{page} |
+| 获取目录    | ✅  | <Badge type="tip" text="^1.0.0" /> | /v2/getDirectory/{Lid}                  |
+| 获取文件    | ✅  | <Badge type="tip" text="^1.0.1" /> | /v2/getFiles/{Lid}/{page}               |
+| 搜索文件    | ✅  | <Badge type="tip" text="^1.0.0" /> | /v2/searchFile/{Lid}/{wd}               |
+| 依Id解析   | ✅  | <Badge type="tip" text="^1.0.0" /> | /v2/parseById/{Fid}                     |
+| 依Url解析  | ✅  | <Badge type="tip" text="^1.0.0" /> | /v2/parseByUrl/{url}                    |
 
-#### 🤡 获取全部：getAll
+#### 🤡 获取全部：getFilesAndDirectories
 
-- **路径**：`/getAll`
+- **路径**：`/getFilesAndDirectories`
 - **请求方法**：`GET`
 - **请求参数**：
-    - `url`：需要爬取的蓝奏云链接，必填。
+    - `Lid`：需要爬取的蓝奏云链接Lid(/后面的编号)，必填。
     - `page`：需要爬取的页码，选填，默认值为`1`。
 - **返回实例**：
 
@@ -60,17 +60,22 @@ outline: deep
 }
 ```
 
-路径说明：获取指定链接下的所有文件夹和文件信息。
+:::info 路径说明
+获取指定链接下的所有文件夹和文件信息。
+:::
 
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v2/getFilesAndDirectories/b1001808/1
+:::
 
 ***
 
-#### 📂 获取目录：getFolders
+#### 📂 获取目录：getDirectory
 
-- **路径**：`/getFolders`
+- **路径**：`/getDirectory`
 - **请求方法**：`GET`
 - **请求参数**：
-    - `url`：需要爬取的蓝奏云链接，必填。
+    - `Lid`：需要爬取的蓝奏云链接Lid(/后面的编号)，必填。
 - **返回实例**：
 
 ```json
@@ -88,8 +93,12 @@ outline: deep
 }
 ```
 
-路径说明：获取指定链接下的所有文件夹信息。
-
+:::info 路径说明
+获取指定链接下的所有文件夹信息。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v2/getDirectory/b1001808
+:::
 ***
 
 #### 📄 获取文件：getFiles
@@ -97,7 +106,7 @@ outline: deep
 - **路径**：`/getFiles`
 - **请求方法**：`GET`
 - **请求参数**：
-    - `url`：需要爬取的蓝奏云链接，必填。
+    - `Lid`：需要爬取的蓝奏云链接Lid(/后面的编号)，必填。
     - `page`：需要爬取的页码，选填，默认值为`1`。
 - **返回实例**：
 
@@ -125,16 +134,20 @@ outline: deep
 }
 ```
 
-路径说明：获取指定链接下的所有文件信息。
-
+:::info 路径说明
+获取指定链接下的所有文件信息。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v2/getFiles/b1001808/1
+:::
 ***
 
-#### 🔍 搜索应用：search
+#### 🔍 搜索应用：searchFile
 
-- **路径**：`/search`
+- **路径**：`/searchFile`
 - **请求方法**：`GET`
 - **请求参数**：
-    - `url`：需要爬取的蓝奏云链接，必填。
+    - `Lid`：需要爬取的蓝奏云链接Lid(/后面的编号)，必填。
     - `wd`：搜索关键词，必填。
 - **返回实例**：
 
@@ -162,14 +175,18 @@ outline: deep
 }
 ```
 
-路径说明：在指定链接下根据关键词搜索文件信息。
-
+:::info 路径说明
+在指定链接下根据关键词搜索文件信息。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v2/searchFile/b1001808/工具
+:::
 ***
 
-#### 🔗 依Url解析：downloadByUrl
+#### 🔗 依Url解析：parseByUrl
 
-- **路径**：`/downloadByUrl`
-- **请求方法**：`GET`
+- **路径**：`/parseByUrl`
+- **请求方法**：`GET`、`POST`
 - **请求参数**：
     - `url`：需要解析的蓝奏云文件链接，必填。
 - **返回实例**：
@@ -182,16 +199,20 @@ outline: deep
 }
 ```
 
-路径说明：通过蓝奏云文件链接获取下载链接。
-
+:::info 路径说明
+通过蓝奏云文件链接获取下载链接。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v2/parseByUrl/https://www.lanzoux.com/i0gZJitwntg
+:::
 ***
 
-#### 🆔 依Id解析：downloadById
+#### 🆔 依Id解析：parseById
 
-- **路径**：`/downloadById`
+- **路径**：`/parseById`、`POST`
 - **请求方法**：`GET`
 - **请求参数**：
-    - `id`：需要解析的蓝奏云文件Fid，必填。
+    - `Fid`：需要解析的蓝奏云文件Fid，必填。
 - **返回实例**：
 
 ```json
@@ -202,4 +223,9 @@ outline: deep
 }
 ```
 
-路径说明：通过蓝奏云文件Fid获取下载链接。
+:::info 路径说明
+通过蓝奏云文件Fid获取下载链接。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v2/parseById/i0gZJitwntg
+:::

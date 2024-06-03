@@ -37,10 +37,13 @@ outline: deep
 - **描述：** 📔 基于微服务方案的云储笔记系统，类似于息流，我就叫它生产力工具~
 - **链接：** [Wow-Note云储笔记](https://note.jfkj.xyz)
 
+### ...
+
 ## 联系我
 
 如果您对我的生活感兴趣，或者有任何问题或建议，请随时通过以下方式联系我：
 
-- **邮箱：** uyevan@163.com
-- **GitHub：** [GitHub](https://github.com/uyevan)
-- **Gitee：** [Gitee](https://gitee.com/uyevan)
+- **邮箱：** uyevan@163.com 💌
+- **ForPage：** [Page](https://jfkj.xyz) 🧑‍💻
+- **GitHub：** [GitHub](https://github.com/uyevan) 🅰️
+- **Gitee：** [Gitee](https://gitee.com/uyevan) 🅱️

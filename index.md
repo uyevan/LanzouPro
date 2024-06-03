@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: API 接口文档
-      link: /api-dock
+      link: /api-dock-v1
     - theme: alt
       text: Github 仓库
       link: https://github.com/uyevan/LanzouProDock

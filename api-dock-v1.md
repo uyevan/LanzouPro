@@ -2,26 +2,26 @@
 outline: deep
 ---
 
-<Badge type="danger" text="v1.0.0 - For beta" xmlns="yes"></Badge>
+<Badge type="warning" text="v1.0.0 - For beta" xmlns="yes"></Badge>
 
-# Lanzou Pro 接口列表
+# Lanzou Pro V1 接口列表
 
 ***
 
 本项目基于 Python3.10 开发、Web框架选用 Flask4.0、文档生成工具 VitePress.
 
-| API     | 状态 |                 版本                 | 开发   |
-|---------|:--:|:----------------------------------:|------|
-| 获取文件与目录 | ✅  | <Badge type="tip" text="^1.0.1" /> | Evan |
-| 获取目录    | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
-| 获取文件    | ✅  | <Badge type="tip" text="^1.0.1" /> | Evan |
-| 搜索文件    | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
-| 依Url解析  | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
-| 依Id解析   | ✅  | <Badge type="tip" text="^1.0.0" /> | Evan |
+| API     | 状态 |                 版本                 | 路由                                        |
+|---------|:--:|:----------------------------------:|:------------------------------------------|
+| 获取文件与目录 | ✅  | <Badge type="tip" text="^1.0.1" /> | /v1/getFilesAndDirectories?url={}&page={} |
+| 获取目录    | ✅  | <Badge type="tip" text="^1.0.0" /> | /v1/getDirectory?url={}                   |
+| 获取文件    | ✅  | <Badge type="tip" text="^1.0.1" /> | /v1/getFiles?url={}&page={}               |
+| 搜索文件    | ✅  | <Badge type="tip" text="^1.0.0" /> | /v1/searchFile?url={}&wd={}               |
+| 依Id解析   | ✅  | <Badge type="tip" text="^1.0.0" /> | /v1/parseById?id={}                       |
+| 依Url解析  | ✅  | <Badge type="tip" text="^1.0.0" /> | /v1/parseByUrl?url={}                     |
 
-#### 🤡 获取全部：getAll
+#### 🤡 获取全部：getFilesAndDirectories
 
-- **路径**：`/getAll`
+- **路径**：`/getFilesAndDirectories`
 - **请求方法**：`GET`
 - **请求参数**：
     - `url`：需要爬取的蓝奏云链接，必填。
@@ -60,14 +60,19 @@ outline: deep
 }
 ```
 
-路径说明：获取指定链接下的所有文件夹和文件信息。
+:::info 路径说明
+获取指定链接下的所有文件夹和文件信息。
+:::
 
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v1/getFilesAndDirectories?url=https://www.lanzoux.com/b1001808&page=1
+:::
 
 ***
 
-#### 📂 获取目录：getFolders
+#### 📂 获取目录：getDirectory
 
-- **路径**：`/getFolders`
+- **路径**：`/getDirectory`
 - **请求方法**：`GET`
 - **请求参数**：
     - `url`：需要爬取的蓝奏云链接，必填。
@@ -88,8 +93,12 @@ outline: deep
 }
 ```
 
-路径说明：获取指定链接下的所有文件夹信息。
-
+:::info 路径说明
+获取指定链接下的所有文件夹信息。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v1/getDirectory?url=https://www.lanzoux.com/b1001808
+:::
 ***
 
 #### 📄 获取文件：getFiles
@@ -125,13 +134,17 @@ outline: deep
 }
 ```
 
-路径说明：获取指定链接下的所有文件信息。
-
+:::info 路径说明
+获取指定链接下的所有文件信息。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v1/getFiles?url=https://www.lanzoux.com/b1001808&page=1
+:::
 ***
 
-#### 🔍 搜索应用：search
+#### 🔍 搜索应用：searchFile
 
-- **路径**：`/search`
+- **路径**：`/searchFile`
 - **请求方法**：`GET`
 - **请求参数**：
     - `url`：需要爬取的蓝奏云链接，必填。
@@ -162,14 +175,18 @@ outline: deep
 }
 ```
 
-路径说明：在指定链接下根据关键词搜索文件信息。
-
+:::info 路径说明
+在指定链接下根据关键词搜索文件信息。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v1/searchFile?url=https://www.lanzoux.com/b1001808&wd=工具
+:::
 ***
 
-#### 🔗 依Url解析：downloadByUrl
+#### 🔗 依Url解析：parseByUrl
 
-- **路径**：`/downloadByUrl`
-- **请求方法**：`GET`
+- **路径**：`/parseByUrl`
+- **请求方法**：`GET`、`POST`
 - **请求参数**：
     - `url`：需要解析的蓝奏云文件链接，必填。
 - **返回实例**：
@@ -182,14 +199,18 @@ outline: deep
 }
 ```
 
-路径说明：通过蓝奏云文件链接获取下载链接。
-
+:::info 路径说明
+通过蓝奏云文件链接获取下载链接。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v1/parseByUrl?url=https://www.lanzoux.com/i0gZJitwntg
+:::
 ***
 
-#### 🆔 依Id解析：downloadById
+#### 🆔 依Id解析：parseById
 
-- **路径**：`/downloadById`
-- **请求方法**：`GET`
+- **路径**：`/parseById`
+- **请求方法**：`GET`、`POST`
 - **请求参数**：
     - `id`：需要解析的蓝奏云文件Fid，必填。
 - **返回实例**：
@@ -202,4 +223,9 @@ outline: deep
 }
 ```
 
-路径说明：通过蓝奏云文件Fid获取下载链接。
+:::info 路径说明
+通过蓝奏云文件Fid获取下载链接。
+:::
+:::danger 请求URL实例
+https://lanzou.uyclouds.com/v1/parseById?id=i0gZJitwntg
+:::
