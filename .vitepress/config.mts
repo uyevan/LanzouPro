@@ -26,6 +26,9 @@ export default defineConfig({
         footer: {
             message: 'You can follow my project the <a href="https://uyclouds.com">UY Cloud</a>.',
             copyright: 'Copyright © 2024-present <a href="https://jfkj.xyz">King Evan.</a>'
+        },
+        search: {
+            provider: 'local'
         }
     }
 })

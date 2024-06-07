@@ -3,7 +3,7 @@ layout: home
 hero:
   name: "永远免费的"
   text: "蓝奏云 API 接口服务 :)"
-  tagline: v1.0.0 - For beta. 🤟
+  tagline: v1.0.1 - For beta. 🤟
   image:
     src: image.png
     alt: Lanzou Dock.
