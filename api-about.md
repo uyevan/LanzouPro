@@ -1,5 +1,10 @@
 ---
-outline: deep
+title: '关于我 🧑‍💻'
+layout: home
+hero:
+  name: "Evan🕊️"
+  tagline: I love gale and spirits ， loneliness and freedom .
+
 ---
 
 # 关于我
@@ -17,25 +22,41 @@ outline: deep
 
 以下是我最近参与过的一些项目：
 
-### Evan的个人网站
+:::info ### Evan的个人网站
 
 - **描述：** 🤟 一个用于展示我的作品和平时吃喝拉撒睡的个人网站。
 - **链接：** [个人网站](https://jfkj.xyz)
+  :::
 
-### UY云后台管理系统
+:::info ### UY云后台管理系统
 
 - **描述：** ☁️ 一个简单的后台管理系统、专们解决个人开发者各种需求而诞生！
 - **链接：** [UY云后台管理系统](https://uyclouds.com)
+  :::
 
-### UyClub实用工具箱
-
-- **描述：** 🛠️ 内涵众多实用功能的盒子应用、只要是你能想到的没有它干不了的？
-- **链接：** [UyClub实用工具箱](https://www.pgyer.com/uyclub)
-
-### Wow-Note云储笔记
+:::info ### Wow-Note云储笔记
 
 - **描述：** 📔 基于微服务方案的云储笔记系统，类似于息流，我就叫它生产力工具~
 - **链接：** [Wow-Note云储笔记](https://note.jfkj.xyz)
+  :::
+
+:::info ### HamBuk影视
+
+- **描述：** 📔 基于微服务方案的云储笔记系统，类似于息流，我就叫它生产力工具~
+- **链接：** [HamBuk影视](https://hambuk.jfkj.xyz)
+  :::
+
+:::info ### UyClub实用工具箱
+
+- **描述：** 🛠️ 内涵众多实用功能的盒子应用、只要是你能想到的没有它干不了的？
+- **链接：** [UyClub实用工具箱](https://www.pgyer.com/uyclub)
+  :::
+
+:::info ### LeYing软件库
+
+- **描述：** 📔 基于微服务方案的云储笔记系统，类似于息流，我就叫它生产力工具~
+- **链接：** [LeYing软件库](https://www.pgyer.com/leying)
+  :::
 
 ### ...
 

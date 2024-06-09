@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "vitepress": "^1.2.2"
+    "vitepress": "^1.2.2",
+    "vitepress-markdown-timeline": "^1.2.1"
   }
 }

@@ -1,11 +1,11 @@
 ---
 layout: home
 hero:
-  name: "永远免费的"
+  name: "Forever free🦢"
   text: "蓝奏云 API 接口服务 :)"
-  tagline: v1.0.1 - For beta. 🤟
+  tagline: v1.0.2 - For beta. 🤟
   image:
-    src: image.png
+    src: logo.png
     alt: Lanzou Dock.
   actions:
     - theme: brand
@@ -18,7 +18,7 @@ hero:
 features:
   - title: 不劳而获
     icon: 💰
-    details: 免费、不限速、永不收费，尽情畅享云盘服务。
+    details: 免费、不限速、永不收费，尽情畅享云盘Api服务。
   - title: 稳如老狗
     icon: 🐶
     details: 稳定、可靠、不跑路、不迷路、永不被迷路。
@@ -35,3 +35,29 @@ features:
     icon: 💡
     details: 精准引导，详尽指南，让您快速找到所需功能。
 ---
+
+<style>
+  :root {
+  /* 标题渐变色 */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #ff416d, #9d00e4);
+
+  /*图标背景渐变色 */
+  --vp-home-hero-image-background-image: linear-gradient(-250deg, #ff416d 30%, #9d00e4 70%);
+  --vp-home-hero-image-filter: blur(55px);
+}
+</style>
+<style>
+  :root {
+  /* brand按钮 */
+  --vp-button-brand-border: #c3c3c3;
+  --vp-button-brand-text: #Fff;
+  --vp-button-brand-bg: #ff416d;
+
+  --vp-button-brand-hover-border: #c3c3c3;
+  --vp-button-brand-hover-text: #c3c3c3;
+  --vp-button-brand-hover-bg: #ff416d;
+
+  --vp-button-brand-active-border: #F6CEEC;
+}
+</style>

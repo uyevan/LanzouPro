@@ -1,13 +1,23 @@
 import {defineConfig} from 'vitepress'
+import timeline from "vitepress-markdown-timeline";
 
 export default defineConfig({
     title: "Lanzou pro Api.",
     description: "Lanzou cloud files pro Api.",
-    head: [['link', {rel: 'icon', href: 'image.png'}]],
+    head: [['link', {rel: 'icon', href: 'logo.png'}]],
     themeConfig: {
         nav: [
-            {text: 'Lanzou Pro', link: '/'},
-            {text: '关于我', link: '/api-about'}
+            {text: '首页', link: '/'},
+            {
+                text: '生态', items: [
+                    {text: 'UYCloud', link: 'https://uyclouds.com'},
+                    {text: 'WowNote', link: 'https://note.jfkj.xyz'},
+                    {text: 'LeYing', link: 'https://www.pgyer.com/leying'},
+                    {text: 'UyClub', link: 'https://www.pgyer.com/uyclub'},
+                    {text: 'HamBuk', link: 'https://hambuk.jfkj.xyz'}
+                ]
+            },
+            {text: '关于', link: '/api-about'}
         ],
 
         sidebar: [
@@ -29,6 +39,18 @@ export default defineConfig({
         },
         search: {
             provider: 'local'
+        },
+        outline: {
+            level: 'deep',
+            label: '本页大纲 🏷️'
         }
-    }
+    },
+    sitemap: {
+        hostname: 'https://lanzou.uyclouds.com'
+    },
+    markdown: {
+        config: (md) => {
+            md.use(timeline);
+        },
+    },
 })

@@ -1,9 +1,8 @@
 ---
-title: Lanzou Pro V2 接口列表
-outline: deep
+title: V2接口 🅱️
 ---
 
-<Badge type="warning" text="v1.0.1 - For beta" xmlns="yes"></Badge>
+<Badge type="warning" text="v1.0.2 - For beta" xmlns="yes"></Badge>
 
 # Lanzou Pro V2 接口列表
 

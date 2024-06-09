@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7872fc8e-001e-42db-a627-094cacb109e2" name="更改" comment="">
+      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/@theme_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/@theme_index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/@theme_index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/@theme_index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
@@ -13,31 +15,38 @@
       <change beforePath="$PROJECT_DIR$/.vitepress/dist/api-about.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/api-about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/dist/api-dock-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/api-dock-v1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/dist/api-dock-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/api-dock-v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/README.md.CBGTz-1A.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/README.md.CBGTz-1A.lean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-about.md.n-gB1Llb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-about.md.n-gB1Llb.lean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v1.md.Whh02h22.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v1.md.Whh02h22.lean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v2.md.DmeEJtz-.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v2.md.DmeEJtz-.lean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/app.pMIPRpos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/chunks/framework.BlxYlo1f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/chunks/theme.MGbTaCkA.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/index.md.DWB49y4A.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/index.md.DWB49y4A.lean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/style.Bmp_BvfL.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-about.md.BVLZIBZQ.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-about.md.BVLZIBZQ.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v1.md.DWIJXbOB.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v1.md.DWIJXbOB.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v2.md.BFSx_oV3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v2.md.BFSx_oV3.lean.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/app.4fOC5U8Q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/chunks/VPLocalSearchBox.DtBBoCt-.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/chunks/theme.uytB95zb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/style.tOrWFgeY.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/dist/hashmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/hashmap.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vitepress/dist/image.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-about.md" beforeDir="false" afterPath="$PROJECT_DIR$/api-about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-dock-v1.md" beforeDir="false" afterPath="$PROJECT_DIR$/api-dock-v1.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-dock-v2.md" beforeDir="false" afterPath="$PROJECT_DIR$/api-dock-v2.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,24 +61,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/ProjectData/nodeJs/VueProject/LanApi&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.docs:dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\AppLicationData\\IDE\\WebStorm\\WebStorm 2023.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/ProjectData/nodeJs/VueProject/LanApi/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.docs:dev.executor": "Run",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "D:\\AppLicationData\\IDE\\WebStorm\\WebStorm 2023.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\public" />
+      <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\.vitepress\dist" />
+      <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\.vitepress\dist\assets" />
       <recent name="D:\ProjectData\nodeJs\VueProject\LanApi" />
       <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\assets" />
     </key>
@@ -110,7 +122,9 @@
       <workItem from="1717377612749" duration="304000" />
       <workItem from="1717377923983" duration="4684000" />
       <workItem from="1717464754234" duration="66000" />
-      <workItem from="1717771523858" duration="2503000" />
+      <workItem from="1717771523858" duration="2640000" />
+      <workItem from="1717839300576" duration="23000" />
+      <workItem from="1717913747114" duration="10489000" />
     </task>
     <servers />
   </component>
