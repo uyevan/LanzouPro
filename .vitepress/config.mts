@@ -34,8 +34,8 @@ export default defineConfig({
             {icon: 'github', link: 'https://github.com/uyevan'}
         ],
         footer: {
-            message: 'You can follow my project the <a href="https://uyclouds.com">UY Cloud</a>.',
-            copyright: 'Copyright © 2024-present <a href="https://jfkj.xyz">King Evan.</a>'
+            message: 'Copyright © 2024-present <a href="https://jfkj.xyz">Evan.</a>',
+            copyright: 'Lanzou Pro Api . <a href="https://beian.miit.gov.cn/" target="_blank">陕ICP备2022014030号-2</a>.',
         },
         search: {
             provider: 'local'

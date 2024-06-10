@@ -5,36 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7872fc8e-001e-42db-a627-094cacb109e2" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/@theme_index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/@theme_index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/@theme_index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/@theme_index.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/cache/deps/_metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vitepress/config.mts" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/config.mts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/README.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/README.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/api-about.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/api-about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/api-dock-v1.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/api-dock-v1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/api-dock-v2.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/api-dock-v2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-about.md.BVLZIBZQ.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-about.md.BVLZIBZQ.lean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v1.md.DWIJXbOB.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v1.md.DWIJXbOB.lean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v2.md.BFSx_oV3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/api-dock-v2.md.BFSx_oV3.lean.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/app.4fOC5U8Q.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/chunks/VPLocalSearchBox.DtBBoCt-.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/chunks/theme.uytB95zb.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/assets/style.tOrWFgeY.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/hashmap.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/hashmap.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vitepress/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vitepress/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-about.md" beforeDir="false" afterPath="$PROJECT_DIR$/api-about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-dock-v1.md" beforeDir="false" afterPath="$PROJECT_DIR$/api-dock-v1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-dock-v2.md" beforeDir="false" afterPath="$PROJECT_DIR$/api-dock-v2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/image.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +38,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/ProjectData/nodeJs/VueProject/LanApi/public",
+    "last_opened_file_path": "D:/ProjectData/nodeJs/VueProject/LanApi/.vitepress",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -79,11 +52,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\.vitepress" />
       <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\public" />
       <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\.vitepress\dist" />
       <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\.vitepress\dist\assets" />
       <recent name="D:\ProjectData\nodeJs\VueProject\LanApi" />
-      <recent name="D:\ProjectData\nodeJs\VueProject\LanApi\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -124,7 +97,8 @@
       <workItem from="1717464754234" duration="66000" />
       <workItem from="1717771523858" duration="2640000" />
       <workItem from="1717839300576" duration="23000" />
-      <workItem from="1717913747114" duration="10489000" />
+      <workItem from="1717913747114" duration="12172000" />
+      <workItem from="1717986736584" duration="3058000" />
     </task>
     <servers />
   </component>
